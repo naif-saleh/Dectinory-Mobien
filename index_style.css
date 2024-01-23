@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , 'sans-serif';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2bc26a;
+}
+.container{
+    width: 690px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+.wrapper{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    resize: none;
+    border: none;
+    outline: none;
+    background:none;
+}
+.conrtols , li , .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conrtols{
+    padding: 12px 15px;
+    list-style: none;
+}
+.conrtols .icons i{
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+.conrtols .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+.conrtols .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #bbb;
+}
+.conrtols .icons{
+    width: 38%;
+}
+.conrtols .row select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.conrtols .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #2bc26a;
+    cursor: pointer;
+}
